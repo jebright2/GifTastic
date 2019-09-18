@@ -11,6 +11,7 @@ function renderButtons(){
 		var newButton = $("<button>");
 		newButton.addClass("btn");
 		newButton.addClass("actor-button");
+		newButton.addClass("alert alert-secondary");
 		newButton.text(topics[i]);
         $("#button-container").append(newButton);
     }
@@ -71,7 +72,7 @@ $(document).ready(function(){
 	renderButtons();
 	$("#submit").on("click", function(){
 		event.preventDefault();
-		addButton($("#actor-actor").val().trim());
+		addButton($("#actors").val().trim());
 		$("#actor-actor").val("");
 	});
 });
