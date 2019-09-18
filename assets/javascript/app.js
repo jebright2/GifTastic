@@ -73,6 +73,7 @@ $(document).ready(function(){
 	$("#submit").on("click", function(){
 		event.preventDefault();
 		addButton($("#actors").val().trim());
-		$("#actor-actor").val("");
+		$("#actors").val();
+		
 	});
 });
