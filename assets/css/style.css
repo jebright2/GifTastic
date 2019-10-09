@@ -1,6 +1,8 @@
 body {
-    background-image: url("");  
+    background-image: url("../images/redCarpet.jpg");  
     margin-left: 2%;   
 }
 
-
+h1, h5 {
+    color:white;
+}
